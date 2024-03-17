@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.navbar,
+body {
+    background-color: rgb(237, 249, 254);
+}
+
+
+/* nav */
+.navbar-brand {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #11144d;
+    font-family: 'Braah One', sans-serif;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.navbar-brand:hover {
+    color: aqua;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link .nav-link active {
+    font-size: 15px;
+    display: inline;
+    color: #11144d;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0ef;
+}
+
+/* home */
+.text {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.text span {
+    color: #4bcaa4;
+}
+
+.text-big {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+#home {
+    background-color: rgb(237, 249, 254);
+    padding-left: 100px;
+    font-size: 20px;
+    color: #11144d;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+
+.more {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.social-media {
+
+    display: inline;
+}
+
+.fa-brands {
+    border: solid;
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    position: relative;
+    text-align: center;
+    width: 2.6rem;
+    margin: 0 5px 10px;
+    transition: all 0.3s;
+}
+
+.fa-linkedin-in {
+    color: #fff;
+    background-color: #0077B5;
+}
+
+.fa-github {
+    color: #fff;
+    background-color: rgb(24, 23, 23);
+}
+
+.fa-google {
+    color: #FFF;
+    background-color: rgb(209, 72, 54);
+}
+
+.fa-brands:hover {
+    /* box-shadow: 0 0 0.5rem #4bcaa4; */
+    background-color: #11144d;
+    /* color: #1f242d; */
+    transform: translateY(-10px);
+}
+
+.btn-bg {
+    padding: 5px;
+    font-family: 'Braah One', sans-serif;
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: 100%;
+    color: rgb(237, 249, 254);
+    border: solid rgb(237, 249, 254);
+    text-decoration: none;
+    background-color: #11144d;
+}
+
+.btn-bg:hover {
+    color: #4bcaa4;
+    border: solid #4bcaa4;
+}
+
+.my-img {
+    margin-top: 60px;
+    border-radius: 50px;
+    height: 450px;
+}
+
+/* about */
+#about {
+    padding-top: 50px;
+    padding-bottom: 200px;
+    background-color: rgb(237, 249, 254);
+    color: #11144d;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+.about-container{
+    height: 80px;
+}
+
+.contact-me,
+.about-me {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.contact-me span,
+.about-me span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #4bcaa4;
+}
+
+.fd {
+    font-family: 'Poppins', sans-serif;
+    color: #11144d;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.ed {
+    margin-top: 80px;
+    font-size: xx-large;
+}
+
+.sm-img {
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.edu_logo {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.edu_logo:hover {
+    cursor: pointer;
+    border-radius: 100%;
+    border: solid #11144d;
+    border-radius: 100%;
+}
+
+.vit_img {
+    margin-top: 50px;
+    height: 200px;
+
+}
+
+.box {
+    display: block;
+    width: 50%;
+    border-bottom: 1px solid #d9dbdf;
+    border-left: 1px solid #d9dbdf;
+    border-right: 1px solid #d9dbdf;
+    border-radius: 7px;
+    margin: 10px;
+    margin-left: 25%;
+    box-shadow: 5px 5px 5px #d9dbdf;
+}
+
+.clg_name {
+    background-color: rgb(131, 194, 199);
+}
+
+.vit_link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    background: #11144d;
+    border-radius: 5px;
+    border: solid #11144d;
+    margin-top: 15%;
+}
+
+.project_h{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.project_name{
+    color: #11144d;
+    background-color: #b6b6e9;
+}
+.project_box{
+    width: 300px;
+    border-top: 1px solid #d9dbdf;
+}
+
+.link_icon{
+    color: #11144d;
+}
+
+.lang_icon{
+    height: 50px;
+}
+
+/* contact */
+
+#contact {
+    padding-top: 80px;
+    margin-bottom: 600px;
+    background-color: rgb(237, 249, 254);
+    color: #11144d;
+    text-align: center;
+}
+
+.contact_form {
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-me {
+    color: #11144d;
+    margin-left: 50px;
+}
+
+.contact-form {
+    margin-top: 100px;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    padding: 80px 40px;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    top: calc(-80px/2);
+    left: 165px;
+    border: 5px solid #11144d;
+    border-radius: 20.5rem;
+}
+
+.contact-form h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #11144d;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-form p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #11144d;
+}
+
+.contact-form input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-form input[type=email],
+.contact-form input[type=password] {
+    border: none;
+    border-bottom: 1px solid #bcb9b9;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #21233e;
+    font-size: 16px;
+}
+
+.contact-form input[type=submit] {
+    height: 30px;
+    color: #fff;
+    font-size: 15px;
+    background: #11144d;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-top: 15%;
+}
+
+.vit_link:hover,
+.contact-form input[type=submit]:hover {
+    background-color: rgb(85, 105, 113);
+    color: #11144d;
+}
+
+#message {
+    border: #d6d2d2;
+    background-color: rgba(0, 0, 0, 0.1);
+    resize: none;
+    width: 350px;
+}
+
+
+
+/* footer */
+#foot {
+    text-align: center;
+    color: #777779;
+}
+
+/* animation */
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(+300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    60% {
+        transform: translateY(+10px);
+    }
+
+}
+
+@keyframes bounce_op {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(+10px);
+    }
+
+    60% {
+        transform: translateY(-10px);
+    }
+
+}
+
+.slideInLeft {
+    animation: slideInLeft 1s ease-in;
+}
+
+.slideInRight {
+    animation: slideInRight 1s ease-in;
+}
+
+.rotate {
+    animation-name: rotate;
+    animation-timing-function: linear;
+}
+
+.bounce {
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.bounce_op {
+    animation-name: bounce_op;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 500px){
+    .about-container{
+        height: 200px;
+    }
+    .project_box{
+        width: 200px;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .my-img {
+        margin-top: 60px;
+        border-radius: 50px;
+        height: 250px;
+        margin-left: 0px;
+    }
+    .vit_img {
+        margin-top: 50px;
+        height: 150px;
+    
+    }
+    
+    .contact_form {
+        position: relative;
+        text-align: center;
+        align-items: center;
+    }
+    .contact-form {
+        width: 300px;
+        height: 400px;
+    }
+    #message {
+        border: #d6d2d2;
+        background-color: rgba(0, 0, 0, 0.1);
+        resize: none;
+        width: 230px;
+    }
+    
+    .avatar {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+        top: calc(-80px/2);
+        left: 35%;
+        border: 5px solid #11144d;
+        border-radius: 20.5rem;
+    }
+  }
